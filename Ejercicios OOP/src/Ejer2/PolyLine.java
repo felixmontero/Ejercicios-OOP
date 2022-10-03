@@ -39,8 +39,18 @@ public class PolyLine {
 
     public double getLength() {
 
-        return 0;
+        // distancia -> hipotenusa (teorema de pitagoras)
 
+        double distance = 0, side1 =0, side2 = 0;
+
+        for (int a=0; a < points.size()-1; a++) {
+            side1 = this.points.get(a).getX() - this.points.get(a + 1).getX();
+            side2 = this.points.get(a).getY() - this.points.get(a + 1).getY();
+
+            distance += Math.sqrt(Math.pow(side1, 2) + Math.pow(side2, 2));
+
+        }
+        return distance;
     }
 
 }

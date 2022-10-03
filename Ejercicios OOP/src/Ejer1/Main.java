@@ -17,28 +17,5 @@ public class Main {
         System.out.println(visita.toString());
 
 
-        String UserOption;
-       /* do {
-            System.out.println(" Qué quieres hacer? \n 1) Realizar una suscrípción \n 2) Elegir un producto");
-            UserOption = sc.nextLine();
-                Customer pep=new Customer("PEP");
-            if (UserOption.equals("1")) {
-
-
-                System.out.println(" Qué suscrípción deseas? \n 1) Premium \n 2) Gold 3) Silver ");
-                UserOption = sc.nextLine();
-
-                if (UserOption.equals("1")) {
-
-                }
-
-
-
-            } else if (UserOption.equals("2")) {
-
-            }
-        } while (UserOption.equals("1") || UserOption.equals("2"));
-
-*/
     }
 }
